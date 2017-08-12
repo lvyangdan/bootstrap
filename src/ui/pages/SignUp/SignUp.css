@@ -1,15 +1,15 @@
-.login{
+.signup{
 	background-color: #81C784;
 }
-.login input{
+.signup input{
 	border:1px solid #212121;
 	width: 70%;
 	line-height: 40px;
-	font-size:20px;
 	background-color: white;
+	font-size:20px;
 	padding-left:5%;
 }
-.login button{
+.signup button{
 	margin-top:10%;
 	width: 75%;
 	line-height: 40px;
@@ -17,17 +17,19 @@
 	color:white;
 	background-color: #2E7D32;
 }
-.login-form{
+.signup-form{
 	padding-top:20%;
 }
-.login-link{
+.signup-link{
 	display: block;
 	margin-top:20px;
 	font-size:20px;
 	font-style: italic;
 	font-weight: 700;
-	padding-bottom: 313px;
+	color:white;
+	padding-bottom: 225px;
+
 }
-.login-link a{
+.signup-link a{
 	color:#26A69A;
 }
