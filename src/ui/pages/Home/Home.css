@@ -1,0 +1,27 @@
+.home{
+	background-color: #41ac22;
+}
+.home h1{
+	line-height: 15px;
+}
+.home img{
+	padding-top:120px;
+	width: 120px;
+	text-align: center;
+}
+.home_link{
+	display: flex;
+	justify-content: space-between;
+	margin-top:30%;
+}
+.home_link .homelink{
+	width: 40%;
+	margin-left:4%;
+	margin-right:4%;
+	font-size:25px;
+	line-height: 50px;
+	color:#263238;
+	margin-bottom:180px;
+	font-weight: 700;
+	background-color: #FFFF8D;
+}

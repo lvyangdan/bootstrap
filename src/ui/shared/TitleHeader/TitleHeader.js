@@ -1,9 +1,10 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
+import './TitleHeader.css'
 const TitleHeader=({title})=>(
   <div>
     <Sidebar/>
-    <div>{title}</div>
+    <div className='title'>{title}</div>
   </div>
 )
 export default TitleHeader
