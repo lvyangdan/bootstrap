@@ -7,6 +7,7 @@ export default function AlertBoxReducer(state=defaultState,action){
 	switch(action.type){
 		case 'SHOWERR':return {...state,showAlert:true,alertMessage:action.message}
 		case 'HIDE_ALERT': return {...state,showAlert:false,alertMessage:''}
+		case 'SIGNUP':return {...state,showAlert:true,alertMessage:action.message}
 		default:return state
 	}
 }

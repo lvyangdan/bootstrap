@@ -23,7 +23,7 @@ class SignUp extends React.Component{
 		else if(password!==passwordAgain){
 			store.dispatch({type:'SHOWERR',message:'两次输入密码不一致'})
 		}
-		else {store.dispatch({type:'SIGNUP',data:data})}
+		else {store.dispatch({type:'SIGNUP',data:data,message:'注册成功'})}
 	}
 	render(){
 		return(<div>
